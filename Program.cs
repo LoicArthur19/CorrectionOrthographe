@@ -53,7 +53,7 @@ class Program
         {
             Console.WriteLine("Choix non reconnu. Traduction ignorée.");
             texteTraduit = "(Traduction non effectuée)";
-        }
+        } 
 
         string template = File.ReadAllText("template.html"); 
         string htmlContent = template.Replace("{{phrase}}", phrase) 
